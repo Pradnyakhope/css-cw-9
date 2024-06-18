@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certified Coffee Courses</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            /* height: 100vh; */
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: block;
+        }
+        .container {
+            width: 100%;
+            height: 80%;
+            /* border: 5px solid red; */
+            background-color: rgba(253, 212, 8, 0.963);
+            position: absolute;
+            bottom: 0;
+            z-index: -1;
+        }
+        .main{
+            width: 80%;
+            height:80%;
+            margin: 4% auto;
+            margin-bottom: 0%;
+            /* border: 3px solid black; */
+            display:flex;
+            justify-content: space-between;
+        }
+        .main div{
+            /* border: 5px solid blue; */
+            width: 45%;
+            height: 100%;
+        }
+        .image{
+            img{
+                width: 100%;
+                height: 55%;
+                /* border: 2px solid red;    */
+            }
+        }
+        .content{
+            align-items: center;
+            text-align: center;
+            padding: 13%;
+            font-weight: bold;
+        }
+        .content h1{
+                font-size: 30px;
+                margin-bottom: 5%;
+        }
+        .content button{
+            margin: 5px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="main">
+        <div class="image">
+            <img src="./image/coffee-img.png" alt="">
+        </div>
+        <div class="content">
+            <h1>Certified Coffee Courses</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ullam et vitae rem esse minus architecto, quia dolorem incidunt, totam earum, aspernatur officia laboriosam porro quasi enim illo tempora! Eaque?
+            </p>
+            <br><br>
+            <p>Image from <a href="Freepik">Freepik</a></p><br>
+            <button>Learn More</button>
+        </div>
+    </div>
+</body>
+</html>
